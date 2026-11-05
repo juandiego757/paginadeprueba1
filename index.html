@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content= "width=device-width, initial-scale=1.0">
+    <title>Pagina de ejemplo con contactos </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https ://cndnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <header class="header">
+    <div class="logo"> Mi sitio<span> web<span> <span></span><center>Por Juan Diego Pacheco</center> </span></div>
+    <button class="nav-toggle" id="navtoggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+    </button>
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+        <li><a href="#inicio"> inicio</a></li>
+        <li><a href="#servicios">servicios </a> </li>
+        <li><a href="#nosotros">nosotros </a></li>
+        <li><a href="contacto">contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+        
+
+    <section class="banner" id="inicio">
+        <div class="banner-content">
+            <h1> Bienvenidos a nuestra plataforma</h1>
+            <p>contruimos soluciones digitales a tu medida con diseño modernos y funcional </p>
+            <a href="#contacto" class="btn">contactanos</a>
+        </div>
+    </section>
+    <section class="contacto-container" id="contacto">
+        <h2>contacto e informacion</h2>
+        <p class="section-subtitle">ponte en contacto con nosotros a traves de cualquiera de nuestros medios.</p>
+        <div class="contacto-grid">
+            <div class="info-card">
+                <i class="fas fa-envelope icon"></i>
+                <h3> correo electronico</h3>
+                <p>contacto@ejemplo.com</p>
+                <p>soporte@ejemplo,com</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-map-marker-alt icon"></i>
+                <h3>direcciom</h3>
+                <p>Av. principal #123, oficina 402</p>
+                <p>ciudad de ejemplo,pais </p>
+            </div>
+            <div class="info-card">
+            <i class="fas fa-phone-alt icon"></i>
+            <h3>telefonos</h3>
+            <p> +57 (1)  234 5678 </p>
+            </div>
+            <div class="info-card">
+            <i class="fas fa-clock icon"></i>
+            <h3>hoario de atencion</h3>
+            <p>lun-vie 8am 6pm</p>
+            <p>sabados 9am 1pm</p>
+            </div>
+        </div>
+        <div class="form-container">
+        <h3>enviamos un mensaje</h3>
+        <form id="contactfform">
+            <div class="input-group">
+            <input type="text" id="juan" placeholder="juan diego pacheco" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="pepitoperes0602@gmail.com" required>
+            </div>
+            <div class="input-group">
+                <textarea id="mensaje" rows="5" placeholder="hola" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit"> Enviar un mensaje </button>
+            <form>
+                <div id="formresponse" class="response-message"></div>
+            </div>>
+    </section>
+    <footer>
+        <p>&copy; 2026 misitioweb. todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
